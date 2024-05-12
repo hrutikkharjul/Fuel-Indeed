@@ -159,7 +159,7 @@
 							int id = rs.getInt("id"); 
 							String destlat = rs.getString("latitude");
 							String destlng = rs.getString("longitude");
-							String apiKey = "AIzaSyD5o5slbuRMWkRWqiFDDGHVFR-uYvGVmzQ";
+							String apiKey = "API_KEY";
 							String urlString = "https://maps.googleapis.com/maps/api/distancematrix/json?units=metric&origins=" +
 					                srclat + "," + srclng + "&destinations=" + destlat + "," + destlng+ "&key=" + apiKey;
 					        URL url = new URL(urlString);
